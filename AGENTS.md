@@ -1,7 +1,7 @@
 # Working in Lang Tutor
 
 This repository stores language lessons and canonical vocabulary/grammar as Markdown.
-Use the repository skills in `.codex/skills/`; their commands run from this root.
+Use the repository skills in `.agents/skills/`; their commands run from this root.
 
 - Read `docs/workflow.md` for the study loop and `docs/data-contract.md` for mutations.
 - Raw lesson notes are user-authored source evidence. Extraction preserves them.

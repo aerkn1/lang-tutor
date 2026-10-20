@@ -95,7 +95,7 @@ Assign evidence to the relevant meaning; a source that lists a word does not
 necessarily support every meaning. Reuse valid stored evidence rather than
 performing the same search on every encounter.
 
-The [vocabulary skill](../.codex/skills/extract-vocabulary/SKILL.md#trusted-cefr-sources)
+The [vocabulary skill](../.agents/skills/extract-vocabulary/SKILL.md#trusted-cefr-sources)
 uses the official Goethe A1/A2/B1 word lists as its approved CEFR source set.
 It checks the relevant meaning, records the actual PDF URL/page/entry/check date,
 and leaves unsupported new assignments UNKNOWN. An unlisted word is not evidence
