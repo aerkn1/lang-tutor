@@ -1,0 +1,11 @@
+{
+  "lesson_id": "lesson-2026-03-01-01",
+  "vocabulary_entries": 45,
+  "grammar_entries": 6,
+  "raw_vocabulary_items": 45,
+  "source_sha256": {
+    "vocab/daily/daily-notes-2026-03-01.md": "f02a4e7466748e56a64ebb961edd3c1d9d3246c1d529bbdd637ecc1835335403",
+    "grammar/daily/daily-notes-2026-03-01.md": "2feed22cb66c64ce5fa4eaea8e49e08bf0de9a7cd2f8f69342951a61a604cbc1",
+    "exercise/daily/daily-exercises-2026-03-01.md": "3e5ff627bd4c7301babee941fd35ebc1249a7e5fd508d82fafda2e6b9a1eba6e"
+  }
+}
