@@ -86,7 +86,7 @@ Grammar payloads use `kind: grammar`, `topic`, and `domain` instead of `lemma`,
 Allowed levels: A1, A2, B1, B2, C1, C2, UNKNOWN.
 
 - `unknown`: requires level UNKNOWN.
-- `estimated`: a pedagogical estimate with a known level; explain it in `note`.
+- `estimated`: retained for legacy assignments and grammar estimates; explain it in `note`. The vocabulary skill does not create new estimates.
 - `verified`: known level plus `source_url`, `locator`, and `checked_at` (ISO date).
 
 The tools validate the presence/format of evidence, not whether a web source
@@ -94,6 +94,15 @@ actually supports the claim. The extracting assistant must inspect it.
 Assign evidence to the relevant meaning; a source that lists a word does not
 necessarily support every meaning. Reuse valid stored evidence rather than
 performing the same search on every encounter.
+
+The [vocabulary skill](../.codex/skills/extract-vocabulary/SKILL.md#trusted-cefr-sources)
+uses the official Goethe A1/A2/B1 word lists as its approved CEFR source set.
+It checks the relevant meaning, records the actual PDF URL/page/entry/check date,
+and leaves unsupported new assignments UNKNOWN. An unlisted word is not evidence
+of B2/C1/C2. Verification means inclusion in the cited exam list; it does not prove
+that this is the word's universal minimum level. Existing migrated estimates remain
+historical until rechecked. This source policy is enforced by skill instructions;
+the CLI validates metadata structure and does not fetch or authenticate web evidence.
 
 ## Lessons and exercise publishing
 
